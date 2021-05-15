@@ -31,10 +31,10 @@ def run():
     k=1
     while k==1:
         
-        m = int(input('''Selecciona una opcion:
-        1. Calcular Area de triangulo ingresando su base y altura:
-        2. Determinar el tipo de triangulo ingresando sus lados:
-        '''
+        m = int(input('''
+1. Calcular Area de triangulo ingresando su base y altura:
+2. Determinar el tipo de triangulo ingresando sus lados:
+Selecciona una opcion: '''
         ))
 
         if m == 1:
